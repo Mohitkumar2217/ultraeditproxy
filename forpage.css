@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body .bodyclass {
+    font-family: 'Segoe UI';
+    line-height: 1.5em;
+} 
+#page_container {
+    background-color: #fff;
+    overflow-x: hidden;
+    padding: 0 40px;
+    margin: 0;
+}
+#page_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
