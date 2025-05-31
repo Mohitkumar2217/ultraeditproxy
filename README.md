@@ -1,2 +1,5 @@
 # ultraeditproxy
- proxy of ultra edit website 
+proxy of ultra edit website 
+Navbar 
+Main section use grid
+footer
