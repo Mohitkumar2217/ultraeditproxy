@@ -1,0 +1,30 @@
+.logo {
+    background-color: blue;
+}
+.logo .img1 {
+    width: 164px;
+}
+.logo .img2 {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI';
+    align-items: center; /*one row   align contents forr multiple lines*/
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+.right ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+.right ul li span {
+    padding: 0px 8px;
+}
