@@ -7,19 +7,20 @@
 
 /* first logo main  */
 .logo .img1 {
-    width: 170px;
+    width: 175px;
 }
 
 /* second logo sub */
 .logo .img2 {
     width: 80px;
-    margin: -8px 80px;
+    margin: -12px 90px;
 }
 
 /* nav tag */
 nav {
     display: flex;
     justify-content: space-evenly;
+    padding: 6px 34px;
     font-family: 'Segoe UI';
     align-items: center;
     max-width: 1360px;
