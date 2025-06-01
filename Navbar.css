@@ -20,7 +20,6 @@
 nav {
     display: flex;
     justify-content: space-evenly;
-    padding: 6px 34px;
     font-family: 'Segoe UI';
     align-items: center;
     max-width: 1360px;
@@ -53,8 +52,6 @@ nav {
 
 .search-icon img {
     height: 40px;
-    margin-left: 0px;
-    padding-left: 0px;
 }
 /* media tag */
 @media screen and (max-width :420px) {
