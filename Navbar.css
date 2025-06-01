@@ -1,23 +1,39 @@
+/* logo container */
 .logo {
-    background-color: blue;
-}
-.logo .img1 {
-    width: 164px;
-}
-.logo .img2 {
-    width: 80px;
-}
-nav {
+    background-color: white;
     display: flex;
-    justify-content: space-around;
-    font-family: 'Segoe UI';
-    align-items: center; /*one row   align contents forr multiple lines*/
+    flex-direction: column;
 }
 
+/* first logo main  */
+.logo .img1 {
+    width: 170px;
+}
+
+/* second logo sub */
+.logo .img2 {
+    width: 80px;
+    margin: -8px 80px;
+}
+
+/* nav tag */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI';
+    align-items: center;
+    max-width: 1360px;
+    margin: auto;
+}
+
+/* right part */
 .right ul {
     display: flex;
-    gap: 34px;
+    gap: 35px;
+    margin-right: 0px;
 }
+
+/* list */
 .right ul li {
     display: flex;
     justify-content: center;
@@ -27,4 +43,31 @@ nav {
 }
 .right ul li span {
     padding: 0px 8px;
+}
+
+.menu-bar {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-icon img {
+    height: 40px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+/* media tag */
+@media screen and (max-width :420px) {
+    .right {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .right ul li img {
+        display: block;
+        margin-right: 20px;
+    }
 }
