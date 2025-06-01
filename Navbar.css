@@ -63,6 +63,12 @@ nav {
         display: none;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
     .menu-bar {
         display: block;
     }
