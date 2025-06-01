@@ -43,7 +43,11 @@ nav {
 .right ul li span {
     padding: 0px 8px;
 }
-
+.menuforlowscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .menu-bar {
     display: none;
     font-size: 24px;
